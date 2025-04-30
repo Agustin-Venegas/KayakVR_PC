@@ -1,0 +1,15 @@
+TECNAM P.92
+-----------
+
+Author : BARANGER Emmanuel (helijah)
+tools  : Blender 2.76 and The Gimp 2.8
+Use    : For FlightGear
+
+Livery : Christian THIRIOT (patten) 2011
+
+This files are GPL.
+
+--------
+BARANGER Emmanuel
+http://helijah.free.fr
+http://embaranger.free.fr

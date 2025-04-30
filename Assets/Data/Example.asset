@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b76e8169cb60d94a976e000533dbc77, type: 3}
+  m_Name: Example
+  m_EditorClassIdentifier: 
+  panels:
+  - id: 97c327338650e4f4abda93fe6d8aef26
+    ind: 0
+    title: "BIENVENIDO AL RECORRIDO VIRTUAL DEL  LAGO COLB\xDAN - REGI\xD3N DEL MAULEBIENVENIDO
+      AL RECORRIDO VIRTUAL DEL  LAGO COLB\xDAN - REGI\xD3N DEL MAULE"
+    footer: 
+    text: "El lago Colb\xFAn es un embalse artificial de la Regi\xF3n del Maule,
+      en Chile. Se encuentra ubicado a 48 km al sureste de la ciudad de Talca, la
+      capital regional, y a 35 km al noreste de la ciudad de Linares. Con una extensi\xF3n
+      de 5700 ha y una capacidad de 1490 hm\xB3, constituye el mayor embalse artificial
+      en Chile y el mayor lago de la zona central del pa\xEDs.\n\nEsta emergente
+      zona de inter\xE9s tur\xEDstico es reconocida por la belleza de sus paisajes,
+      adem\xE1s de sus aguas cristalinas y templadas (aguas no contaminadas alcanzan
+      una temperatura de 23\xB0), las que favorecen la pr\xE1ctica de deportes n\xE1uticos
+      como kayak, velerismo, motos de agua, entre otros. "
+    image:
+    - {fileID: 21300000, guid: 24f8684fdab720f428b65e93f46295a8, type: 3}
+    - {fileID: 21300000, guid: cca6bbebecf835140bd602c86542f00b, type: 3}
+    - {fileID: 21300000, guid: a4fb7bd176d6dde498028ed06194d9fa, type: 3}
+    - {fileID: 21300000, guid: fb96174c70a81594aa603e2dfa6f1eb7, type: 3}
+    - {fileID: 21300000, guid: e59a694d10a40aa4bb145c0b9afc11c8, type: 3}
+    - {fileID: 21300000, guid: 58597cec6bf99f34faa89319adeca802, type: 3}
+    - {fileID: 21300000, guid: c7b537920d84fee4ca901a38c9f09155, type: 3}
+    nextIds:
+    - e75b039a2ddbbb348b14dbd40faceb04
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: e75b039a2ddbbb348b14dbd40faceb04
+    ind: 1
+    title: "PARQUE NATURAL TRICAHUE LAGO COLB\xDAN - REGI\xD3N DEL MAULE"
+    footer: 
+    text: "\xC1rea protegida privada de 4.169 hect\xE1reas, pionero en la conservaci\xF3n
+      de la bioversidad de la precordillera andina de la Eco-regi\xF3n del Maule,
+      ubicada en la Comuna de San Clemente, a 70 km de la cuidad de Talca por el
+      paso Internacional Pehuenche CH-115.\r\n\rEl parque Natural Tricahue con sus
+      objetivos de investigaci\xF3n, Educaci\xF3n y Ecoturismo aporta a la conservaci\xF3n
+      de los bosques caducifolios y h\xFAmedos siempre verdes, Matorral Escler\xF3filo,
+      Estepa Alto Andina y humedales como las cuencas de esteros Amarillo y Tricahue.\r\n\rAlgunos
+      senderos que puedes encontrar son:\r\n > \r SENDERO LOS PICUDOS\r\n >  SENDERO
+      CIRCUITO TRICAHUE\r\n >  SENDERO MIRADOR ALTOS DE TRICAO\r\n >  SENDERO CIRCUITO
+      EL TATA"
+    image:
+    - {fileID: 21300000, guid: b525adb83d756554e98f10f18bb1d752, type: 3}
+    nextIds:
+    - a6901d670bf5ed741980d27f792d14ef
+    - 7214edd7475861649a79d75f5b33f8b7
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: a6901d670bf5ed741980d27f792d14ef
+    ind: 2
+    title: "HIDROEL\xC9CTRICA COLB\xDAN LAGO COLB\xDAN - REGI\xD3N DEL MAULE"
+    footer: 
+    text: "Con 5.700 hect\xE1reas y 1.490 millones de metros c\xFAbicos, el lago
+      Colb\xFAn es el mayor embalse artificial de Chile. Ubicado en la regi\xF3n
+      del Maule, fue construido entre 1980 y 1985 con el fin de retener las aguas
+      del r\xEDo del mismo nombre, las cuales son usadas para riego y para producci\xF3n
+      de energ\xEDa hidroel\xE9ctrica.\n\nEste lago forma parte de un importante
+      circuito hidroel\xE9ctrico que adem\xE1s del Lago Colb\xFAn, incluye el Lago
+      Melado y el Lago Machicura; con sus respectivas represas.\n"
+    image:
+    - {fileID: 21300000, guid: 7a73ecc7a92453e448cc788a71dc03ed, type: 3}
+    - {fileID: 21300000, guid: 8516dfd0c84a8c841ae513c617fa057f, type: 3}
+    - {fileID: 21300000, guid: 83cc2a379c25088488a662c4e32da13a, type: 3}
+    - {fileID: 21300000, guid: a27f7c847b889854697d8a8edf39d4a8, type: 3}
+    nextIds:
+    - 792fe7c9c8b1d244895b3262ad96ef28
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: 7214edd7475861649a79d75f5b33f8b7
+    ind: 3
+    title: "SECTOR PASO NEVADO LAGO COLB\xDAN - REGI\xD3N DEL MAULE"
+    footer: 
+    text: "Esta localidad se ubica en la ribera norte del Rio Maule, que desemboca
+      en el Lago Colb\xFAn, el sector ofrece una amplia gama de servicios tur\xEDsticos
+      (caba\xF1as, camping, centros de abastecimiento), es ideal para los amantes
+      de la pesca deportiva. \n\nPaso nevado tiene una belleza paisaj\xEDstica que
+      lo hace ser parada segura para quien visita el Paso Internacional Pehuenche."
+    image:
+    - {fileID: 21300000, guid: e46827722d9f6fb41944017be17b7198, type: 3}
+    - {fileID: 21300000, guid: 5901d9006d2ed1f4eb8e8bf6f80d4f20, type: 3}
+    nextIds:
+    - efebda75806b7cd42b67cf65cb5a786b
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: 792fe7c9c8b1d244895b3262ad96ef28
+    ind: 4
+    title: "USTED HA FINALIZADO EL RECORRIDO VIRTUAL LAGO COLB\xDAN"
+    footer: 
+    text: "\xA1\xA1HA FINALIZADO EXITOSAMENTE!!\n\nMAULETEC LE DA LAS GRACIAS POR
+      SER PARTE DE ESTA EXPERIENCIA DE REALIDAD VIRTUAL.\n\nLO INVITAMOS A LLENAR
+      UNA PEQUE\xD1A ENCUESTA QUE SE LE ENTREGAR\xC1 PARA QUE PODAMOS CONTAR CON
+      SU APRECIACI\xD3N DE ESTA EXPERIENCIA Y SU OPINI\xD3N CON RESPECTO AL TURISMO
+      DE LA REGI\xD3N DEL MAULE.\n\nGRACIAS POR SU TIEMPO Y PARTICIPACI\xD3N"
+    image:
+    - {fileID: 21300000, guid: 1b493a35d5b3d8243ae884d57eac030c, type: 3}
+    nextIds: []
+    ending: 1
+    pos: {x: 0, y: 0}
+  - id: efebda75806b7cd42b67cf65cb5a786b
+    ind: 5
+    title: "USTED HA FINALIZADO EL RECORRIDO VIRTUAL LAGO COLB\xDANUSTED HA FINALIZADO
+      EL RECORRIDO VIRTUAL LAGO COLB\xDAN"
+    footer: 
+    text: "\xA1\xA1HA FINALIZADO EXITOSAMENTE!!\n\nMAULETEC LE DA LAS GRACIAS POR
+      SER PARTE DE ESTA EXPERIENCIA DE REALIDAD VIRTUAL.\n\nLO INVITAMOS A LLENAR
+      UNA PEQUE\xD1A ENCUESTA QUE SE LE ENTREGAR\xC1 PARA QUE PODAMOS CONTAR CON
+      SU APRECIACI\xD3N DE ESTA EXPERIENCIA Y SU OPINI\xD3N CON RESPECTO AL TURISMO
+      DE LA REGI\xD3N DEL MAULE.\n\nGRACIAS POR SU TIEMPO Y PARTICIPACI\xD3N"
+    image:
+    - {fileID: 21300000, guid: 1b493a35d5b3d8243ae884d57eac030c, type: 3}
+    nextIds: []
+    ending: 1
+    pos: {x: 0, y: 0}

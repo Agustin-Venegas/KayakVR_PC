@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b76e8169cb60d94a976e000533dbc77, type: 3}
+  m_Name: ArgumentosFuertes
+  m_EditorClassIdentifier: 
+  panels:
+  - id: 97c327338650e4f4abda93fe6d8aef26
+    ind: 0
+    title: "EL LAGO COLB\xDAN Y SUS ALREDEDORES"
+    footer: 
+    text: "El lago Colb\xFAn es un embalse artificial de la Regi\xF3n del Maule,
+      en Chile. Se encuentra ubicado a 48 km al sureste de la ciudad de Talca, la
+      capital regional, y a 35 km al noreste de la ciudad de Linares. Con una extensi\xF3n
+      de 5700 hect\xE1reas y una capacidad de 1490 hect\xF3metros c\xFAbicos, constituye
+      el mayor embalse artificial en Chile y el mayor lago de la zona central del
+      pa\xEDs.\r\n\r\nEsta emergente zona de inter\xE9s tur\xEDstico es reconocida
+      por la belleza de sus paisajes, adem\xE1s de sus aguas puras, cristalinas y
+      templadas (aguas no contaminadas que alcanzan una temperatura de 23\xB0), las
+      que favorecen la pr\xE1ctica de diferentes deportes n\xE1uticos como nado,
+      kayak, velerismo, motos de agua, entre otros."
+    image:
+    - {fileID: 21300000, guid: 24f8684fdab720f428b65e93f46295a8, type: 3}
+    - {fileID: 21300000, guid: cca6bbebecf835140bd602c86542f00b, type: 3}
+    - {fileID: 21300000, guid: a4fb7bd176d6dde498028ed06194d9fa, type: 3}
+    - {fileID: 21300000, guid: fb96174c70a81594aa603e2dfa6f1eb7, type: 3}
+    - {fileID: 21300000, guid: e59a694d10a40aa4bb145c0b9afc11c8, type: 3}
+    - {fileID: 21300000, guid: 58597cec6bf99f34faa89319adeca802, type: 3}
+    - {fileID: 21300000, guid: c7b537920d84fee4ca901a38c9f09155, type: 3}
+    nextIds:
+    - e75b039a2ddbbb348b14dbd40faceb04
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: e75b039a2ddbbb348b14dbd40faceb04
+    ind: 1
+    title: "HIDROEL\xC9CTRICA COLB\xDAN LAGO COLB\xDAN - REGI\xD3N DEL MAULE"
+    footer: 
+    text: "El Lago Colb\xFAn fue construido para retener las aguas que bajan de la
+      cordillera por el cauce y afluentes del R\xEDo Colb\xFAn. Es una importante
+      fuente de desarrollo humano, ya que sus aguas son usadas para producci\xF3n
+      de energ\xEDa limpia y sustentable: la energ\xEDa hidroel\xE9ctrica. \r\nEl
+      Lago Colb\xFAn, junto al lago Melado y el Lago Machicura, son la fuente que
+      permite la creaci\xF3n de energ\xEDa de la central hidroel\xE9ctrica Colb\xFAn-Machicura,
+      aportando con m\xE1s de 490 Mega Watts de energ\xEDa renovable al Sistema El\xE9ctrico
+      Nacional. "
+    image:
+    - {fileID: 21300000, guid: b525adb83d756554e98f10f18bb1d752, type: 3}
+    nextIds:
+    - a6901d670bf5ed741980d27f792d14ef
+    - 7214edd7475861649a79d75f5b33f8b7
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: a6901d670bf5ed741980d27f792d14ef
+    ind: 2
+    title: "PRODUCCI\xD3N AGR\xCDCOLA Y ALIMENTACI\xD3N"
+    footer: 
+    text: "El complejo Colb\xFAn-Machicura desempe\xF1a un papel fundamental en la
+      gesti\xF3n de recursos h\xEDdricos para la agricultura en la regi\xF3n del
+      Maule, una de las m\xE1s relevantes de Chile. Este sistema permite regular
+      los caudales del r\xEDo Maule a lo largo del a\xF1o, proporcionando agua para
+      los sistemas de riego, especialmente en per\xEDodos de menor flujo natural
+      o sequ\xEDa.\r\n\r\nEste control permite que los agricultores tengan un acceso
+      confiable a agua para sus cultivos, incluso en \xE9pocas en que el caudal natural
+      ser\xEDa insuficiente para satisfacer la demanda agr\xEDcola apoyando la producci\xF3n
+      de frutas, vinos, hortalizas y otros cultivos que son esenciales para la econom\xEDa
+      de la regi\xF3n. "
+    image:
+    - {fileID: 21300000, guid: 7a73ecc7a92453e448cc788a71dc03ed, type: 3}
+    - {fileID: 21300000, guid: 8516dfd0c84a8c841ae513c617fa057f, type: 3}
+    - {fileID: 21300000, guid: 83cc2a379c25088488a662c4e32da13a, type: 3}
+    - {fileID: 21300000, guid: a27f7c847b889854697d8a8edf39d4a8, type: 3}
+    nextIds:
+    - 792fe7c9c8b1d244895b3262ad96ef28
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: 7214edd7475861649a79d75f5b33f8b7
+    ind: 3
+    title: "PRODUCCI\xD3N AGR\xCDCOLA Y ALIMENTACI\xD3N"
+    footer: 
+    text: "El complejo Colb\xFAn-Machicura desempe\xF1a un papel fundamental en la
+      gesti\xF3n de recursos h\xEDdricos para la agricultura en la regi\xF3n del
+      Maule, una de las m\xE1s relevantes de Chile. Este sistema permite regular
+      los caudales del r\xEDo Maule a lo largo del a\xF1o, proporcionando agua para
+      los sistemas de riego, especialmente en per\xEDodos de menor flujo natural
+      o sequ\xEDa.\r\n\r\nEste control permite que los agricultores tengan un acceso
+      confiable a agua para sus cultivos, incluso en \xE9pocas en que el caudal natural
+      ser\xEDa insuficiente para satisfacer la demanda agr\xEDcola apoyando la producci\xF3n
+      de frutas, vinos, hortalizas y otros cultivos que son esenciales para la econom\xEDa
+      de la regi\xF3n."
+    image:
+    - {fileID: 21300000, guid: e46827722d9f6fb41944017be17b7198, type: 3}
+    - {fileID: 21300000, guid: 5901d9006d2ed1f4eb8e8bf6f80d4f20, type: 3}
+    nextIds:
+    - efebda75806b7cd42b67cf65cb5a786b
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: 792fe7c9c8b1d244895b3262ad96ef28
+    ind: 4
+    title: "USTED HA FINALIZADO EL RECORRIDO VIRTUAL LAGO COLB\xDAN"
+    footer: 
+    text: "\xA1\xA1HA FINALIZADO EXITOSAMENTE!!\n\nMAULETEC LE DA LAS GRACIAS POR
+      SER PARTE DE ESTA EXPERIENCIA DE REALIDAD VIRTUAL.\n\nLO INVITAMOS A LLENAR
+      UNA PEQUE\xD1A ENCUESTA QUE SE LE ENTREGAR\xC1 PARA QUE PODAMOS CONTAR CON
+      SU APRECIACI\xD3N DE ESTA EXPERIENCIA Y SU OPINI\xD3N CON RESPECTO AL TURISMO
+      DE LA REGI\xD3N DEL MAULE.\n\nGRACIAS POR SU TIEMPO Y PARTICIPACI\xD3N"
+    image:
+    - {fileID: 21300000, guid: 1b493a35d5b3d8243ae884d57eac030c, type: 3}
+    nextIds: []
+    ending: 1
+    pos: {x: 0, y: 0}
+  - id: efebda75806b7cd42b67cf65cb5a786b
+    ind: 5
+    title: "USTED HA FINALIZADO EL RECORRIDO VIRTUAL LAGO COLB\xDANUSTED HA FINALIZADO
+      EL RECORRIDO VIRTUAL LAGO COLB\xDAN"
+    footer: 
+    text: "\xA1\xA1HA FINALIZADO EXITOSAMENTE!!\n\nMAULETEC LE DA LAS GRACIAS POR
+      SER PARTE DE ESTA EXPERIENCIA DE REALIDAD VIRTUAL.\n\nLO INVITAMOS A LLENAR
+      UNA PEQUE\xD1A ENCUESTA QUE SE LE ENTREGAR\xC1 PARA QUE PODAMOS CONTAR CON
+      SU APRECIACI\xD3N DE ESTA EXPERIENCIA Y SU OPINI\xD3N CON RESPECTO AL TURISMO
+      DE LA REGI\xD3N DEL MAULE.\n\nGRACIAS POR SU TIEMPO Y PARTICIPACI\xD3N"
+    image:
+    - {fileID: 21300000, guid: 1b493a35d5b3d8243ae884d57eac030c, type: 3}
+    nextIds: []
+    ending: 1
+    pos: {x: 0, y: 0}
