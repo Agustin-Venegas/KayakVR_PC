@@ -15,8 +15,9 @@ MonoBehaviour:
   panels:
   - id: 97c327338650e4f4abda93fe6d8aef26
     ind: 0
+    displayInd: 1
     title: "EL LAGO COLB\xDAN Y SUS ALREDEDORES"
-    footer: 
+    footer: "Por favor, contin\xFAa remando hasta la siguiente boya"
     text: "El lago Colb\xFAn es un embalse artificial de la Regi\xF3n del Maule,
       en Chile. Se encuentra ubicado a 48 km al sureste de la ciudad de Talca, la
       capital regional, y a 35 km al noreste de la ciudad de Linares. Con una extensi\xF3n
@@ -41,6 +42,7 @@ MonoBehaviour:
     pos: {x: 0, y: 0}
   - id: e75b039a2ddbbb348b14dbd40faceb04
     ind: 1
+    displayInd: 2
     title: "HIDROEL\xC9CTRICA COLB\xDAN LAGO COLB\xDAN - REGI\xD3N DEL MAULE"
     footer: 
     text: "El Lago Colb\xFAn fue construido para retener las aguas que bajan de la
@@ -60,6 +62,7 @@ MonoBehaviour:
     pos: {x: 0, y: 0}
   - id: a6901d670bf5ed741980d27f792d14ef
     ind: 2
+    displayInd: 3
     title: "PRODUCCI\xD3N AGR\xCDCOLA Y ALIMENTACI\xD3N"
     footer: 
     text: "El complejo Colb\xFAn-Machicura es importante para la agricultura en la
@@ -82,6 +85,7 @@ MonoBehaviour:
     pos: {x: 0, y: 0}
   - id: 7214edd7475861649a79d75f5b33f8b7
     ind: 3
+    displayInd: 4
     title: "PRODUCCI\xD3N AGR\xCDCOLA Y ALIMENTACI\xD3N"
     footer: 
     text: "El complejo Colb\xFAn-Machicura es importante para la agricultura en la
@@ -102,6 +106,7 @@ MonoBehaviour:
     pos: {x: 0, y: 0}
   - id: 792fe7c9c8b1d244895b3262ad96ef28
     ind: 4
+    displayInd: 5
     title: "USTED HA FINALIZADO EL RECORRIDO VIRTUAL LAGO COLB\xDAN"
     footer: 
     text: "\xA1\xA1HA FINALIZADO EXITOSAMENTE!!\n\nMAULETEC LE DA LAS GRACIAS POR
@@ -116,6 +121,7 @@ MonoBehaviour:
     pos: {x: 0, y: 0}
   - id: efebda75806b7cd42b67cf65cb5a786b
     ind: 5
+    displayInd: 5
     title: "USTED HA FINALIZADO EL RECORRIDO VIRTUAL LAGO COLB\xDANUSTED HA FINALIZADO
       EL RECORRIDO VIRTUAL LAGO COLB\xDAN"
     footer: 
