@@ -28,6 +28,7 @@ public class BuoyData
     public string id;
     [HideInInspector]
     public int ind;
+    public int displayInd;
 
     public string title;
     public string footer;

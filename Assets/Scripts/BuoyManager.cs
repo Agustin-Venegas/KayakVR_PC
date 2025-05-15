@@ -12,6 +12,8 @@ public class BuoyManager : MonoBehaviour
     int buoy_index = 0; //ultima boya visitada
     public List<BuoyTrigger> buoys;
 
+    //bool ExecuteOnlyOnce = true;
+
     private void Awake()
     {
         Instance = this;
@@ -30,8 +32,7 @@ public class BuoyManager : MonoBehaviour
     {
         if (sequence.panels[buoy_index].ending)
         {
-            //terminar el juego
-
+            LogManager.Instance.WriteToPath();
         } else
         {
             BuoyData d = sequence.panels[i];
@@ -59,13 +60,13 @@ public class BuoyManager : MonoBehaviour
         UIController.Instance.Show();
     }
 
-    private void OnApplicationQuit()
+    public void WriteToFile()
     {
         LogManager.Instance.WriteToPath();
+        FindAnyObjectByType<DataUploader>().Upload();
     }
 
-    private void OnApplicationPause(bool pause)
-    {
-        LogManager.Instance.WriteToPath();
-    }
+    //private void OnApplicationQuit() { WriteToFile();}
+
+    //private void OnApplicationPause(bool pause) { WriteToFile();}
 }

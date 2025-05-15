@@ -88,9 +88,6 @@ public class TreeView
         {
             var nexts = p.data.nextIds;
             var from = p.GetConnectionPosition(false);
-
-            if (nexts == null) return;
-            
             for (int j = nexts.Count - 1; j >= 0; j--)
             {
                 string n = nexts[j];

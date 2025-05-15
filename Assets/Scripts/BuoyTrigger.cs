@@ -10,12 +10,12 @@ public class BuoyTrigger : TriggerEvent
 
     int i;
 
-
     public void AddEvent(int i)
     {
         this.i = i;
 
-        onTriggerEnter.AddListener(
+        if (hasRay)
+            onTriggerEnter.AddListener(
             () => 
             {
                 Debug.Log("EventTriggered");
@@ -66,6 +66,4 @@ public class BuoyTrigger : TriggerEvent
     {
         UIController.Instance.Hide();
     }
-
-    
 }
