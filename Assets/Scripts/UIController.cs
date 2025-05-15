@@ -18,6 +18,7 @@ public class UIController : MonoBehaviour
     public Image image;
     public Animator animator;
     public AnimationImages anim;
+    public EyeLog logger;
 
     [Header("Intro")]
     public BuoyData Intro;
@@ -28,6 +29,11 @@ public class UIController : MonoBehaviour
     public void Awake()
     {
         Instance = this;    
+
+        if (logger == null)
+        {
+            logger = FindObjectOfType<EyeLog>();
+        }
     }
 
     public void Start()
@@ -46,8 +52,12 @@ public class UIController : MonoBehaviour
         if (titleText.text == Intro.title) Hide();
     }
 
+    //asigna los datos de una boya en el UI
     public void AssignData(BuoyData p)
     {
+        logger.Reset();
+        logger.client = p;
+
         //setear textos
         if (p.text != string.Empty)
         {
@@ -114,5 +124,7 @@ public class UIController : MonoBehaviour
     {
         animator.ResetTrigger("Show");
         animator.SetTrigger("Hide");
+
+        logger.RecordData();
     }
 }

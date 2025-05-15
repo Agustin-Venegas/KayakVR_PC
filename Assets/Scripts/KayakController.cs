@@ -57,9 +57,7 @@ public class KayakController : MonoBehaviour {
     {
         thrust.y = 0;
 
-        float mag = _rb.velocity.magnitude;
-
-        if (mag < 4)
+        if (_rb.velocity.magnitude < 4)
         {
             _rb.AddForce(speed * (thrust), ForceMode.Acceleration);
         }
