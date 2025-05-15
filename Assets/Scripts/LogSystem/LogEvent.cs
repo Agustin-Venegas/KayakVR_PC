@@ -43,6 +43,8 @@ public class LogEvent : MonoBehaviour
     //escribir tiempo en ultima columna
     public bool AppendRuntime = true;
 
+    private LogData logData;
+
     //genera una linea de datos
     public string RecordDataLine( params object[] d)
     {
@@ -67,22 +69,32 @@ public class LogEvent : MonoBehaviour
 
         foreach (object o in d)
         {
-            r.data.Add(o.ToString());
+            r.data.Add(o.ToString().Replace(".", ","));
         }
 
         if (AppendRuntime)
         {
-            r.data.Add(UnityEngine.Time.time.ToString());
+            r.data.Add(UnityEngine.Time.time.ToString("#####.###").Replace(".", ","));
         }
 
         return r;
     }
 
-    //Evento que escribe una linea que se escribira en el archivo
-    ////con los strings puestos en esta clase
+    //Evento que genera un registro que se escribira en el archivo
+    //con los strings puestos en esta clase
+    //si ya existe lo actualiza
     public void RecordLine()
     {
-        LogManager.Instance.data.Add(GenerateRecord(data.ToArray()));
+        //si el dato no existe, generar
+        if (logData == null)
+        {
+            logData = GenerateRecord(data.ToArray());
+            LogManager.Instance.data.Add(logData);
+        } else //si existe, actualizarlo
+        {
+            LogData temp = GenerateRecord(data.ToArray());
+            logData.data = temp.data;
+        }
     }
 
     public string Time { get { return UnityEngine.Time.time.ToString(); } }
