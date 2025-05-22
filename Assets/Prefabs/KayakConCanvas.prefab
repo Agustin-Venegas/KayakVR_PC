@@ -641,6 +641,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paddleEffect: {fileID: 8300000, guid: 23439922f26dbf249829f9a416c1d28e, type: 3}
   fuenteAudio: {fileID: 5462548323178498041}
+  splashEffect: {fileID: 0}
+  RotationBias: 0.05
 --- !u!82 &5462548323178498041
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1056,6 +1058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paddleEffect: {fileID: 8300000, guid: 23439922f26dbf249829f9a416c1d28e, type: 3}
   fuenteAudio: {fileID: 4592838982768100200}
+  splashEffect: {fileID: 0}
+  RotationBias: 0.05
 --- !u!82 &4592838982768100200
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1394,7 +1398,6 @@ MonoBehaviour:
   speed: 4
   friction: 0.6
   torque: -8
-  momentum: 0
   _rb: {fileID: 2221451509389097487}
 --- !u!54 &2221451509389097487
 Rigidbody:
@@ -1613,6 +1616,17 @@ MonoBehaviour:
   image: {fileID: 241858799084873747}
   animator: {fileID: 9200238080137466340}
   anim: {fileID: 8391018634251510603}
+  Intro:
+    id: 
+    ind: 0
+    displayInd: 0
+    title: 
+    footer: 
+    text: 
+    image: []
+    nextIds: []
+    ending: 0
+    pos: {x: 0, y: 0}
   sprites: []
 --- !u!114 &8391018634251510603
 MonoBehaviour:
