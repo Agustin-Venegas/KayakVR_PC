@@ -5,7 +5,7 @@ using UnityEngine.XR;
 
 public class Paddle : MonoBehaviour {
 
-    Vector3 _waterLevel;
+    public Vector3 _waterLevel;
     Vector3 lastPos; //ultima diferencia de posicion global kayak remo
     public AudioClip paddleEffect;
     public AudioSource fuenteAudio;
@@ -24,7 +24,7 @@ public class Paddle : MonoBehaviour {
     private void FixedUpdate()
     {
         #region
-        /*
+       
         //distancia espacio global centro de kayak a remo
         Vector3 relativePos = transform.position - KayakController.Singleton.transform.position;
         
@@ -80,7 +80,7 @@ public class Paddle : MonoBehaviour {
                 }
 
                 //fuerza rotativa extra, dependiendo de la distancia en x del kayak al remo, mientras mas lejos, mas rota
-                float rotative = Mathf.Clamp(Mathf.Abs(localpos.x) / 3f, 0.5f, 3);
+                float rotative = Mathf.Clamp(Mathf.Abs(localpos.x) / 3f, 0.5f, 3) + magnitude*2f;
 
                 KayakController.Singleton.AddThrust(thrust, rotative, side);
             }
@@ -96,10 +96,12 @@ public class Paddle : MonoBehaviour {
         }
 
         lastPos = relativePos;
-    }
-        */
+ 
         #endregion
 
+        #region
+
+        /*
         //el siguiente codigo fue descompilado de la version de PC directamente
         Vector3 relativePos = base.transform.position - KayakController.Singleton.transform.position;
         Vector3 movedPos = lastPos - relativePos;
@@ -111,8 +113,8 @@ public class Paddle : MonoBehaviour {
                 fuenteAudio.clip = paddleEffect;
                 fuenteAudio.Play();
                 underWater = true;
-                //float num = Mathf.Clamp(magnitude, 0.03f, 0.2f);
-                //Object.Instantiate(splashEffect, base.transform.position, Quaternion.identity).transform.localScale = new Vector3(num, num, num);
+                float num = Mathf.Clamp(magnitude, 0.03f, 0.2f);
+                Object.Instantiate(splashEffect, base.transform.position, Quaternion.identity).transform.localScale = new Vector3(num, num, num);
             }
             Mathf.Clamp01(magnitude);
             if (lastPos != Vector3.zero)
@@ -142,6 +144,8 @@ public class Paddle : MonoBehaviour {
             underWater = false;
         }
         lastPos = relativePos;
-
+        */
     }
+        
+        #endregion
 }

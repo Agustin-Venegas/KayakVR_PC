@@ -68,8 +68,8 @@ public class KayakController : MonoBehaviour {
 
         //fisica de kayak, cuando empujo de un lado, girar hacia el otro. Si esta frenando un lado, girar hacia ese lado
         //torque en movimiento
-        float dirForce = Mathf.Clamp((90 - Vector3.Angle(thrust,transform.forward))/90f,-1f, 1f); //positivo cuando el remo mueve hacia adelante, negativo cuando va hacia atras
-        float secondtorque = Mathf.Clamp(0.25f - thrust.magnitude, 0,1) * rotative * side * mag;
+        //float dirForce = Mathf.Clamp((90 - Vector3.Angle(thrust,transform.forward))/90f,-1f, 1f); //positivo cuando el remo mueve hacia adelante, negativo cuando va hacia atras
+        //float secondtorque = Mathf.Clamp(0.25f - thrust.magnitude, 0,1) * rotative * side ; // * mag
 
         Vector3 torqFinal = new Vector3(0, ((_rb.velocity - thrust).magnitude * side * torque * rotative),0);
         _rb.AddRelativeTorque(-torqFinal, ForceMode.Acceleration);

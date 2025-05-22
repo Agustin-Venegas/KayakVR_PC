@@ -63,6 +63,7 @@ public class DataUploader : MonoBehaviour
         Debug.Log("Uploading");
         WWWForm form = new WWWForm();
 
+        //crear el formulario con cada elemento http y cada dato del juego
         for (int i = 0; i < Entries.Count; i++)
         {
             form.AddField(Entries[i].d[0], data[i]);
@@ -96,16 +97,21 @@ public class DataUploader : MonoBehaviour
         d.Add(Header+index);
         d.Add(lm.shortFilename);
 
-        //llenar los datos con formato
+        //llenar lista de datos con formato
         for (int i = 2; i < Entries.Count; i++)
         {
             pair p = Entries[i];
+
             foreach (LogData ld in lm.data) //calzar logdata con entry formato
             {
-                if (p.d[1] == ld.data[0]) d.Add(ld.data[1].ToString());
+                if (p.d[1] == ld.data[0])
+                {
+                    d.Add(ld.data[1].ToString());
+                    break; //prevenir duplicados
+                }
             }
 
-            //si no se guardo algun dato, escribir un valor de error
+            //si no se guarda algun dato para este elemento, escribir un valor de error
             if (d.Count <= i) d.Add("" + -1);
         }
 

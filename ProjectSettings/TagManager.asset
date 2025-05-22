@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UIPanel
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PanelExtra
   - Water
   - UI
   - 

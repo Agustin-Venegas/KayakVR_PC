@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.XR;
 
 //rota el objeto paddle en espacio local, segun los botones
+//no funciona ya que no está el manager OVR instalado
 
-public class PaddleAdjuster : MonoBehaviour
+/*public class PaddleAdjuster : MonoBehaviour
 {
     public GameObject paddle;
     bool rotating = false;
@@ -36,3 +37,4 @@ public class PaddleAdjuster : MonoBehaviour
         }
     }
 }
+*/
