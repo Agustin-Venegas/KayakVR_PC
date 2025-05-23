@@ -10,6 +10,8 @@ using TMPro;
 //sube los datos a un google forms en el URL, en los elementos destinados en entries
 public class DataUploader : MonoBehaviour
 {
+    public UploaderSettings settings;
+
     //IMPORTANTE: Define el software y version del juego, 01o es arg. fuerte, en oculus
     public string Header = "01H";
 
@@ -35,6 +37,14 @@ public class DataUploader : MonoBehaviour
 
     private void Start()
     {
+        if (settings != null)
+        {
+            Header = settings.Header;
+            Entries = settings.Entries;
+            URL = settings.URL;
+            getUrl = settings.getURL;
+        }
+
         StartCoroutine(GetIndex());
     }
 
