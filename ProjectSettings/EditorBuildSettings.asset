@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SampleSceneTerrainGaia.unity
+    guid: 52a4eecd8284f0449b6e52c26386c2f2
+  - enabled: 0
     path: Assets/Scenes/SampleSceneTerrainHigh.unity
     guid: 31cfba9c97059d644a5aa92ed6497100
   - enabled: 0
