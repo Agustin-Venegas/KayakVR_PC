@@ -74,3 +74,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 .vsconfig
+
+/[Aa]ssets/Procedural Worlds/*
+/Build F
+/Build D
+/Assets/RTP Vol.1
