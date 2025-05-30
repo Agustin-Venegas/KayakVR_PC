@@ -20,6 +20,8 @@ public class DataUploader : MonoBehaviour
 
     public static int index = -1;
 
+    private bool sent = false;
+
     [Serializable]
     public class pair
     {
@@ -96,6 +98,8 @@ public class DataUploader : MonoBehaviour
     //transforma los datos de logmanager en una lista de strings y trata de subirla
     public void Upload()
     {
+        Debug.Log("Starting Upload Routine...");
+
         LogManager lm = LogManager.Instance;
 
         //si no hay suficientes datos, cancelar, entrada a 3 boyas
@@ -125,7 +129,11 @@ public class DataUploader : MonoBehaviour
             if (d.Count <= i) d.Add("" + -1);
         }
 
-        StartCoroutine(Post(d));
+        if (!sent)
+        {
+            sent = true;
+            StartCoroutine(Post(d));
+        }
     }
 
 }

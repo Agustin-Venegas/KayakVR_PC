@@ -18,7 +18,7 @@ public class BuoyTrigger : TriggerEvent
             onTriggerEnter.AddListener(
             () => 
             {
-                Debug.Log("EventTriggered");
+                Debug.Log("EventTriggered: "+i);
                 BuoyManager.Instance.SetDataIndex(i);
                 BuoyManager.Instance.Next(i);
             }

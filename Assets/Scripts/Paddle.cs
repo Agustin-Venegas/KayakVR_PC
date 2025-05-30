@@ -44,7 +44,7 @@ public class Paddle : MonoBehaviour {
                 underWater = true;
 
                 float splash = Mathf.Clamp(magnitude, 0.03f, 0.2f);
-                Instantiate(splashEffect, transform.position, Quaternion.identity).transform.localScale = new Vector3(splash, splash, splash);
+                Instantiate(splashEffect, transform.position+Vector3.up*0.1f, Quaternion.identity).transform.localScale = new Vector3(splash, splash, splash);
             }
 
             if (lastPos != Vector3.zero)

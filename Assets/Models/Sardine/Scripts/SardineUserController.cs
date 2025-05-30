@@ -5,9 +5,9 @@ public class SardineUserController : MonoBehaviour
 {
 	SardineCharacter sardineCharacter;
 
-	float t = 0;
-	float t2 = 1;
-	float a = 0;
+	public float t = 0;
+	public float t2 = 1;
+	public float a = 0;
 
 	void Start () 
 	{
