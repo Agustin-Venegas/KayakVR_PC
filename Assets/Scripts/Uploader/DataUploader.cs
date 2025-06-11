@@ -21,12 +21,13 @@ public class DataUploader : MonoBehaviour
     public static int index = -1;
 
     private bool sent = false;
+    public static bool Sent { get { return Sent; } }
 
     [Serializable]
     public class pair
     {
         [SerializeField]
-       public string[] d = { null, null };
+       public string[] d = { "HTMlElement", "DataName" };
     }
 
     //URL para postear dato
@@ -56,18 +57,22 @@ public class DataUploader : MonoBehaviour
         UnityWebRequest www = UnityWebRequest.Get(getUrl);
 
         yield return www.SendWebRequest();
-        if (www.error != null) Debug.Log(www.error);
+        if (www.error != null)
+        {
+            Debug.Log(www.error);
+			index = 0;
+        } else
+        {
+            string res = www.downloadHandler.text;
 
-        string res = www.downloadHandler.text;
-
-        string[] lines = res.Split('\n');
-        index = lines.Length+1;
+            string[] lines = res.Split('\n');
+            index = lines.Length+1;
+        }
 
         LogManager.Instance.index = Header + index;
 
         Debug.Log("index = " + index);
     }
-
 
     //poner datos en la url segun el formato en entries
     IEnumerator Post(List<string> data)
@@ -89,9 +94,11 @@ public class DataUploader : MonoBehaviour
         {
             Debug.Log(www.error);
         }
-
-        //mostrar codigo al final
-        UIController.Instance.SetFooter("Codigo: " + Header + index);
+        else
+        {
+            //mostrar codigo al final
+            UIController.Instance.SetFooter("Codigo: " + Header + index);
+        }
     }
 
 
