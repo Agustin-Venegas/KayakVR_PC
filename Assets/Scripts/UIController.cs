@@ -78,8 +78,12 @@ public class UIController : MonoBehaviour
             SetFooter(p.footer);
         } else
         {
-            SetFooter("");
-            footer.SetActive(false);
+            //sobreescribir solo si los datos del juego no han sido enviados, mantener codigo en pantalla
+            if (!DataUploader.Sent)
+            {
+                SetFooter("");
+                footer.SetActive(false);
+            }
         }
 
         //setear imagen o animacion
