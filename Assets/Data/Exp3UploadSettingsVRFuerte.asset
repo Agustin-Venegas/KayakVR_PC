@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5b28fb975ce194abb0ff4f3dc296d8, type: 3}
+  m_Name: Exp3UploadSettingsVRFuerte
+  m_EditorClassIdentifier: 
+  Header: 01H
+  Entries:
+  - d:
+    - entry.493568268
+    - Platform
+  - d:
+    - entry.74781192
+    - DateAndNumber
+  - d:
+    - entry.1772120657
+    - Time1Enter
+  - d:
+    - entry.738510885
+    - Time1Read
+  - d:
+    - entry.1606237998
+    - Time1Exit
+  - d:
+    - entry.1045651403
+    - Time2Enter
+  - d:
+    - entry.738017675
+    - Time2Read
+  - d:
+    - entry.955031254
+    - Time2Exit
+  - d:
+    - entry.1390822972
+    - Time3Enter
+  - d:
+    - entry.2129103932
+    - Time3Read
+  - d:
+    - entry.1034910062
+    - Time3Exit
+  - d:
+    - entry.1892731932
+    - Time4Enter
+  - d:
+    - entry.880268367
+    - Time4Read
+  - d:
+    - entry.983372496
+    - Time4Exit
+  - d:
+    - entry.960646040
+    - Time5Enter
+  URL: https://docs.google.com/forms/d/e/1FAIpQLSecd3TOAXdMfvThsUQJHdp_tL0XOZmwvF03_OF1ft5DcOKM4Q/formResponse
+  getURL: https://docs.google.com/spreadsheets/d/e/2PACX-1vS0MXnqAe99PfWJpZi0L_Gak_y-eLZSWBwcyjZK_3dS0YOj5Q-yk1iweg0Z-dpptGyecNANpnzfUhmM/pub?gid=1936486991&single=true&output=csv

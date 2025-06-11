@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b76e8169cb60d94a976e000533dbc77, type: 3}
+  m_Name: ExampleEnglish
+  m_EditorClassIdentifier: 
+  panels:
+  - id: 97c327338650e4f4abda93fe6d8aef26
+    ind: 0
+    displayInd: 1
+    title: "WELCOME TO THE VIRTUAL TOUR OF COLB\xDAN LAKE - MAULE REGION "
+    footer: 
+    text: "Colb\xFAn Lake is an artificial reservoir in the Maule Region of Chile.
+      It is located 48 km southeast of the city of Talca, the regional capital, and
+      35 km northeast of the city of Linares. With an area of \u200B\u200B5,700 ha
+      and a capacity of 1,490 hm\xB3, it is the largest artificial reservoir in Chile
+      and the largest lake in the central region of the country.\r\n\r\nThis emerging
+      tourist attraction is renowned for the beauty of its landscapes and its crystal-clear,
+      temperate waters (unpolluted waters reach a temperature of 23\xB0C), which
+      are ideal for water sports such as kayaking, sailing, and jet skiing."
+    image:
+    - {fileID: 21300000, guid: 24f8684fdab720f428b65e93f46295a8, type: 3}
+    - {fileID: 21300000, guid: cca6bbebecf835140bd602c86542f00b, type: 3}
+    - {fileID: 21300000, guid: a4fb7bd176d6dde498028ed06194d9fa, type: 3}
+    - {fileID: 21300000, guid: fb96174c70a81594aa603e2dfa6f1eb7, type: 3}
+    - {fileID: 21300000, guid: e59a694d10a40aa4bb145c0b9afc11c8, type: 3}
+    - {fileID: 21300000, guid: 58597cec6bf99f34faa89319adeca802, type: 3}
+    - {fileID: 21300000, guid: c7b537920d84fee4ca901a38c9f09155, type: 3}
+    nextIds:
+    - e75b039a2ddbbb348b14dbd40faceb04
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: e75b039a2ddbbb348b14dbd40faceb04
+    ind: 1
+    displayInd: 2
+    title: "TRICAHUE NATURAL PARK COLB\xDAN LAKE - MAULE REGION "
+    footer: 
+    text: 'A 4,169-hectare private protected area, a pioneer in the conservation
+      of the biodiversity of the Andean foothills of the Maule Eco-region, located
+      in the municipality of San Clemente, 70 km from the city of Talca via the Pehuenche
+      International Pass CH-115.
+
+      
+
+      The Tricahue Natural Park, with
+      its research, education, and ecotourism objectives, contributes to the conservation
+      of deciduous and humid evergreen forests, sclerophyllous scrub, high Andean
+      steppe, and wetlands such as the Amarillo and Tricahue estuary basins.
+
+      
+
+      Some
+      trails you can find are:
+
+      >
+
+      LOS PICUDOS TRAIL
+
+      > TRICAHUE
+      CIRCUIT TRAIL
+
+      > MIRADOR ALTOS DE TRICAO TRAIL
+
+      > EL TATA TRAIL'
+    image:
+    - {fileID: 21300000, guid: b525adb83d756554e98f10f18bb1d752, type: 3}
+    nextIds:
+    - a6901d670bf5ed741980d27f792d14ef
+    - 7214edd7475861649a79d75f5b33f8b7
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: a6901d670bf5ed741980d27f792d14ef
+    ind: 2
+    displayInd: 3
+    title: "COLB\xDAN HYDROELECTRIC PLANT COLB\xDAN LAKE - MAULE REGION "
+    footer: 
+    text: "With 5,700 hectares and 1.49 billion cubic meters of water, Lake Colb\xFAn
+      is the largest artificial reservoir in Chile. Located in the Maule Region,
+      it was built between 1980 and 1985 to retain the waters of the river of the
+      same name, which are used for irrigation and hydroelectric power production.\r\n\r\nThis
+      lake is part of an important hydroelectric circuit that, in addition to Lake
+      Colb\xFAn, includes Lake Melado and Lake Machicura, with their respective dams."
+    image:
+    - {fileID: 21300000, guid: 7a73ecc7a92453e448cc788a71dc03ed, type: 3}
+    - {fileID: 21300000, guid: 8516dfd0c84a8c841ae513c617fa057f, type: 3}
+    - {fileID: 21300000, guid: 83cc2a379c25088488a662c4e32da13a, type: 3}
+    - {fileID: 21300000, guid: a27f7c847b889854697d8a8edf39d4a8, type: 3}
+    nextIds:
+    - 792fe7c9c8b1d244895b3262ad96ef28
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: 7214edd7475861649a79d75f5b33f8b7
+    ind: 3
+    displayInd: 4
+    title: "PASO NEVADO SECTOR, COLB\xDAN LAKE - MAULE REGION"
+    footer: 
+    text: "This town is located on the northern bank of the Maule River, which flows
+      into Lake Colb\xFAn. The area offers a wide range of tourist services (cabins,
+      camping, and supply centers) and is ideal for sport fishing enthusiasts.\n\nPaso
+      Nevado's scenic beauty makes it a safe stop for those visiting the Pehuenche
+      International Pass."
+    image:
+    - {fileID: 21300000, guid: e46827722d9f6fb41944017be17b7198, type: 3}
+    - {fileID: 21300000, guid: 5901d9006d2ed1f4eb8e8bf6f80d4f20, type: 3}
+    nextIds:
+    - efebda75806b7cd42b67cf65cb5a786b
+    ending: 0
+    pos: {x: 0, y: 0}
+  - id: 792fe7c9c8b1d244895b3262ad96ef28
+    ind: 4
+    displayInd: 5
+    title: "YOU HAVE COMPLETED THE COLB\xDAN LAKE VIRTUAL TOUR"
+    footer: 
+    text: 'YOU  COMPLETED THE TOUR SUCCESSFULLY!!
+
+
+      MAULETEC THANKS YOU FOR
+      BEING PART OF THIS VIRTUAL REALITY EXPERIENCE.
+
+
+      WE INVITE YOU TO COMPLETE
+      A SHORT SURVEY THAT WILL BE PROVIDED TO YOU SO THAT WE CAN OBTAIN YOUR APPRECIATION
+      OF THIS EXPERIENCE AND YOUR OPINION REGARDING TOURISM IN THE MAULE REGION.
+
+
+      THANK
+      YOU FOR YOUR TIME AND PARTICIPATION'
+    image:
+    - {fileID: 21300000, guid: 1b493a35d5b3d8243ae884d57eac030c, type: 3}
+    nextIds: []
+    ending: 1
+    pos: {x: 0, y: 0}
+  - id: efebda75806b7cd42b67cf65cb5a786b
+    ind: 5
+    displayInd: 5
+    title: "YOU HAVE COMPLETED THE COLB\xDAN LAKE VIRTUAL TOUR"
+    footer: 
+    text: 'YOU  COMPLETED THE TOUR SUCCESSFULLY!!
+
+
+      MAULETEC THANKS YOU FOR
+      BEING PART OF THIS VIRTUAL REALITY EXPERIENCE.
+
+
+      WE INVITE YOU TO COMPLETE
+      A SHORT SURVEY THAT WILL BE PROVIDED TO YOU SO THAT WE CAN OBTAIN YOUR APPRECIATION
+      OF THIS EXPERIENCE AND YOUR OPINION REGARDING TOURISM IN THE MAULE REGION.
+
+
+      THANK
+      YOU FOR YOUR TIME AND PARTICIPATION'
+    image:
+    - {fileID: 21300000, guid: 1b493a35d5b3d8243ae884d57eac030c, type: 3}
+    nextIds: []
+    ending: 1
+    pos: {x: 0, y: 0}
