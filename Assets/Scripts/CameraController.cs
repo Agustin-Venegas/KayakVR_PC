@@ -33,12 +33,12 @@ public class CameraController : MonoBehaviour
 
         //clampear entre 60 y 0 y 360 y 300
         euler.x = euler.x - delta.y > 60 && euler.x - delta.y < 300 ? euler.x : euler.x - delta.y;
-        euler.y = euler.y + delta.x;
+        euler.y = euler.y + delta.x > 170 && euler.y + delta.x < 260 ? euler.y : euler.y + delta.x;
         euler.z = 0;
 
         //Mathf.Clamp(rot.eulerAngles.x - delta.y,-70f,25f)
 
-        Debug.Log("Rot:"+rot.eulerAngles.x);
+        Debug.Log("Rot:"+rot.eulerAngles.y);
 
         rot = Quaternion.Euler(euler);
     }
